@@ -27,7 +27,7 @@ For example:
 You will have to run it three times to authenticate: the key, secret, and token.
 
 
-## Steps
+## Steps - https://media.oregonstate.edu/media/t/1_wsmzsls8
 - Run `terraform init`.
 - Run `terraform validate`.
 - Run `terraform apply`.
