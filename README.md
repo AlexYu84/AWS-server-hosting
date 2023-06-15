@@ -25,7 +25,7 @@ You will have to run it three times to authenticate: the key, secret, and token.
 
 ## Steps
 - Run `terraform init`.
-- Run `terraform validate`
+- Run `terraform validate`.
 - Run `terraform apply`.
 - Copy the IP outputted by terraform and put it in Minecraft
 - Wait it a minute or two for the server to spin up.
