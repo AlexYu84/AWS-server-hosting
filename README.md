@@ -42,4 +42,9 @@ https://github.com/HarryNash/terraform-minecraft
 https://canvas.oregonstate.edu/courses/1914651/assignments/9243895?module_item_id=23242128
 
 ## Bonus
-If you want to keep up with the newest minecraft version you will need to go into the main.tf file and edit one like.
+If you want to keep up with the newest minecraft version you will need to go into the main.tf file and edit one line.
+On line 62 of main.tf:
+
+`wget -O server.jar https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar`
+
+Replace the link: "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar" with whatever jar link that is provided the [Official Minecraft Website Download](https://www.minecraft.net/en-us/download/server).
