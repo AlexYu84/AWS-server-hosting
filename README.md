@@ -1,6 +1,10 @@
 # CS312-final
 
 
+## Background
+we will being hosting a minecraft server through AWS. However, we will do this ONLY through terraform and scripts. We will not need to connect to AWS in any way besides starting up the lab.
+
+
 ## Setup
 - [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli).
 - [Install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
@@ -31,3 +35,11 @@ You will have to run it three times to authenticate: the key, secret, and token.
 - Wait a minute or two for the server to spin up. (this might take a while)
 - Play.
 - Irrecoverably shut everything down with `terraform destroy`.
+
+## Sources
+
+https://github.com/HarryNash/terraform-minecraft
+https://canvas.oregonstate.edu/courses/1914651/assignments/9243895?module_item_id=23242128
+
+## Bonus
+If you want to keep up with the newest minecraft version you will need to go into the main.tf file and edit one like.
