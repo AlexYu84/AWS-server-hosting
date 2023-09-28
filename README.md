@@ -2,7 +2,7 @@
 
 
 ## Background
-we will being hosting a minecraft server through AWS. However, we will do this ONLY through terraform and scripts. We will not need to connect to AWS in any way besides starting up the lab.
+we will being hosting a minecraft server through AWS. However, we will do this ONLY through terraform and scripts. We will not need to connect to AWS in any way besides starting up the lab/AWS session.
 
 
 ## Setup
