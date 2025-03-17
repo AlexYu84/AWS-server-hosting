@@ -1,4 +1,3 @@
-# CS312-final
 
 
 ## Background
